@@ -6,6 +6,9 @@
 *.war
 *.ear
 
+# Keep the Gradle wrapper JAR checked in so CI can run `./gradlew`.
+!gradle/wrapper/gradle-wrapper.jar
+
 # Files for the ART/Dalvik VM
 *.dex
 
